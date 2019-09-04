@@ -1,0 +1,27 @@
+{
+  "name": "sample_webex_bot_connector",
+  "version": "1.0.0",
+  "description": "a sample for connecting WEBEX BOT directly with database for example HANA ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketan40/sample_webex_bot_connector.git"
+  },
+  "author": "KETAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ketan40/sample_webex_bot_connector/issues"
+  },
+  "homepage": "https://github.com/ketan40/sample_webex_bot_connector#readme",
+  "dependencies": {
+    "@sap/hana-client": "^2.4.144",
+    "angular7-csv": "^0.2.12",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+  }
+}
